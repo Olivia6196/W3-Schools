@@ -12,11 +12,11 @@
     <header>
         <nav id="up">
             <ul>
-                <li><a href="" id="home">HOME</a></li>
-                <li><a href=""><i class="fa-solid fa-user"></i></a><a href="">ABOUT</a></li>
-                <li><a href=""><i class='bx bxs-grid'></i></a><a href="">PORTFOLIO</a></li>
-                <li><a href="" ><i class="fa-solid fa-envelope"></i></a><a href="" id="contact">CONTACT</a></li>
-                <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li><a href="#up" id="home">HOME</a></li>
+                <li id="about"><a href="#us"><i class="fa-solid fa-user"></i></a><a href="#us">ABOUT</a></li>
+                <li id="portfolio"><a href="#work"><i class='bx bxs-grid'></i></a><a href="#work">PORTFOLIO</a></li>
+                <li id="call"><a href="#contact" ><i class="fa-solid fa-envelope"></i></a><a href="#contact">CONTACT</a></li>
+                <li><a href="#end"><i class="fa-solid fa-magnifying-glass"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -25,7 +25,7 @@
             <img src="./images/brown cloth2.png" alt="logo">
             <h1>MY WEBSITE LOGO</h1>
         </section>
-        <section class="about">
+        <section class="about" id="us">
             <h2>ABOUT ME</h2>
             <h4>I love photography</h4>
             <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur  adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -71,10 +71,12 @@
             </div>
         </section>
         <section class="portfolio">
+            <div class="overlay5">
             <h1>PORTFOLIO</h1>
             <img src="./images/hair bend2.png" alt="portfolio">
+            </div>
         </section>
-        <section class="work">
+        <section class="work" id="work">
             <h3>MY WORK</h3>
             <p>Here are some of my latest lorem work ipsum tipsum. <br> Click on the images to make them bigger</p>
             <div class="images">
@@ -118,7 +120,7 @@
                 <h1>CONTACT</h1>
             </div>
         </section>
-        <section class="details">
+        <section class="details" id="contact">
             <h1>WHERE I WORK</h1>
             <p class="love">I'd love your feedback!</p>
             <div class="more">
@@ -140,7 +142,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="end">
         <button onclick="location.href='#up'"><i class='bx bx-up-arrow-alt'></i>To the top</button>
         <br><br>
         <a href=""><i class="fa-brands fa-square-facebook"></i></a>
